@@ -23,13 +23,13 @@ public class MagicBox<T> {
 
     T pick() {
         Random random = new Random();
-        int randomInt = random.nextInt(items.length);
         for (int i = 0; i < items.length; i++) {
             if (items[i] == null) {
                 throw new RuntimeException("Коробка еще не полна! Осталось заполнить "
                         + (items.length - i) + " ячеек");
             }
         }
+        int randomInt = random.nextInt(items.length);
         return items[randomInt];
     }
 }

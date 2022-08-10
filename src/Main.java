@@ -25,5 +25,21 @@ public class Main {
 
         System.out.println(itemMagicBox.pick());
         System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
+        System.out.println(itemMagicBox.pick());
+        System.out.println(numberMagicBox.pick());
     }
 }
